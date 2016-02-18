@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DWP.iml" filepath="$PROJECT_DIR$/DWP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HousetimeFmResolver/HousetimeFmResolver.iml" filepath="$PROJECT_DIR$/HousetimeFmResolver/HousetimeFmResolver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TechnobaseFmResolver/TechnobaseFmResolver.iml" filepath="$PROJECT_DIR$/TechnobaseFmResolver/TechnobaseFmResolver.iml" />
+    </modules>
+  </component>
+</project>

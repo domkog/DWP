@@ -1,0 +1,254 @@
+.btn-round-big {
+    -fx-border-radius: 80px;
+    -fx-background-radius: 80px;
+    -fx-focus-color: transparent;
+    -fx-background-color: #252839;
+}
+
+.btn-round-big:hover {
+    -fx-background-color: linear-gradient(#252839, #565D63);
+}
+
+.btn-round-small {
+    -fx-border-radius: 60px;
+    -fx-background-radius: 60px;
+    -fx-focus-color: transparent;
+    -fx-background-color: #252839;
+}
+
+.btn-round-small:hover {
+    -fx-background-color: linear-gradient(#252839, #565D63);
+}
+
+.btn-round-small:selected {
+    -fx-background-color: #F2B632;
+}
+
+.btn-round-small:selected:hover {
+    -fx-background-color: linear-gradient(#F2B632, #252839);
+}
+
+.btn-menu {
+    -fx-border-radius: 80px;
+    -fx-background-radius: 80px;
+    -fx-focus-color: transparent;
+    -fx-background-color: #F2B632;
+    -fx-text-fill: transparent;
+}
+
+.btn-menu:hover {
+    -fx-background-color: #FFA300;
+}
+
+.label-small {
+    -fx-font-size: 18px;
+    -fx-font-family: "Calibri";
+    -fx-text-fill: #FFFFFF;
+}
+
+.label-small:hover {
+    -fx-text-fill: #FFFFFF;
+}
+
+.label-mid {
+    -fx-font-size: 28px;
+    -fx-font-family: "Calibri";
+    -fx-text-fill: #FFFFFF;
+}
+
+.label-mid:hover {
+    -fx-text-fill: #FFFFFF;
+}
+
+.label-big {
+    -fx-font-size: 32px;
+    -fx-font-family: "Calibri";
+    -fx-text-fill: #252839;
+    -fx-font-weight: bold;
+}
+
+.label-big:hover {
+    -fx-text-fill: #252839;
+}
+
+
+.header {
+    -fx-background-color: #252839;
+}
+
+
+.vol-slider .track {
+    -fx-background-color:null;  /* Hide the track */
+    -fx-background-insets: 1 0 -1 0, 0, 1;
+    -fx-background-radius: 2.5, 2.5, 1.5;
+    -fx-padding: 0.208333em; /* 2.5 */
+}
+
+.vol-slider .thumb {
+	-fx-background-color: #F2B632;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 1.0em; /* makes sure this remains circular */
+    -fx-padding: 0.75em; /* 7 */
+}
+
+.vol-bar .bar {
+	-fx-background-color: #F2B632;
+	-fx-background-insets: 1 0 -1 0, 0, 1;
+    -fx-background-radius: 2.5, 2.5, 1.5;
+    -fx-padding: 0.208333em; /* 2.5 */
+}
+
+.vol-bar .track {
+	-fx-background-color: #363B54;
+    -fx-background-insets: 1 0 -1 0, 0, 1;
+    -fx-background-radius: 2.5, 2.5, 1.5;
+    -fx-padding: 0.208333em; /* 2.5 */
+}
+
+/*Station selector*/
+.btn-sidebar-back {
+    -fx-background-color: #F2B632;
+    -fx-text-fill: WHITE;
+    -fx-font-family: "Calibri";
+    -fx-font-size: 18px;
+    -fx-font-weight: BOLD;
+    -fx-underline: true;
+}
+
+.btn-sidebar-back:hover {
+    -fx-background-color: #FFA300;
+    -fx-text-fill: #252839;
+    -fx-font-weight: BOLD;
+}
+
+.btn-sidebar {
+    -fx-background-color: transparent;
+    -fx-text-fill: WHITE;
+    -fx-font-family: "Calibri";
+    -fx-font-size: 18px;
+}
+
+.btn-sidebar:hover {
+    -fx-background-color: transparent;
+    -fx-text-fill: #F2B632;
+}
+
+.btn-sidebar:selected {
+    -fx-background-color: transparent;
+    -fx-text-fill: #F2B632;
+    -fx-font-weight: BOLD;
+}
+
+.sidebar {
+    -fx-background-color: rgb(37, 40, 67, 1);
+    -fx-border-color:transparent;
+}
+
+.sidebar:focused {
+    -fx-background-color: rgb(37, 40, 67, 1);
+    -fx-border-color:transparent;
+}
+
+.scroll-bar {
+ -fx-background-color:transparent;
+ -fx-focus-color: transparent;
+ -fx-background-radius: 2em;
+}
+
+.scroll-bar:focused {
+    -fx-background-color: transparent;
+    -fx-focus-color: transparent;
+}
+
+.scroll-bar:vertical .track {
+     -fx-background-color: rgb(37, 40, 67, 1);
+     -fx-border-color:transparent;
+}
+
+.scroll-bar:vertical .track-background {
+     -fx-background-color: rgb(37, 40, 67, 1);
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #F2B632;
+    -fx-background-insets: 0 3 0 3;
+    -fx-background-radius: 2em;
+}
+
+.scroll-bar:vertical .decrement-arrow {
+ -fx-background-color: rgb(37, 40, 67, 0.8);
+ -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+ -fx-padding: 0.25em;
+ -fx-rotate: -180;
+}
+
+.scroll-bar:vertical .increment-arrow {
+    -fx-background-color: rgb(37, 40, 67, 0.8);
+    -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+    -fx-padding: 0.25em;
+    -fx-rotate: 0;
+}
+
+.scroll-bar:vertical .increment-button, .scroll-bar:vertical .decrement-button {
+ -fx-background-color: rgb(37, 40, 67, 0.8);
+ -fx-background-radius: 2em;
+ -fx-padding: 5;
+}
+
+.scroll-bar:vertical:focused {
+    -fx-background-color: transparent,rgb(96,96,96),rgb(96,96,96);
+}
+
+/*Menu selector*/
+
+.menu-pane {
+    -fx-background-color: #FFA300;
+}
+
+.menu-box {
+    -fx-background-color: F2B632;
+}
+
+.menu-btn {
+    -fx-font-family: "Calibri";
+    -fx-font-size: 30px;
+    -fx-background-color: transparent;
+    -fx-text-fill: #252839;
+}
+
+.menu-btn:hover {
+    -fx-font-weight: BOLD;
+}
+
+/*Idle screen*/
+
+.idle-pane {
+    -fx-background-color: #252839;
+}
+
+.idle-clock {
+    -fx-font-family: "Arial";
+    -fx-font-size: 40px;
+    -fx-font-weight: BOLD;
+    -fx-fill: WHITE;
+}
+
+.idle-data {
+    -fx-font-family: "Arial";
+    -fx-font-weight: BOLD;
+    -fx-text-fill: WHITE;
+}
+
+.idle-station {
+    -fx-font-family: "Arial";
+    -fx-font-size: 32px;
+    -fx-font-weight: BOLD;
+    -fx-fill: #F2B632;
+}
+
+.idle-header {
+    -fx-font-family: "Arial";
+    -fx-font-size: 15px;
+    -fx-font-weight: BOLD;
+    -fx-fill: WHITE;
+}

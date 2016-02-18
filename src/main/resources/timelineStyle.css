@@ -1,0 +1,199 @@
+.header {
+    -fx-background-color: #252839;
+}
+
+.footer {
+    -fx-background-color: #252839;
+}
+
+.footer-text {
+    -fx-font-family: "Calibri";
+    -fx-font-size: 30px;
+    -fx-fill: #F2B632;
+    -fx-font-weight: bold;
+}
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: #252839;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.list-cell:even {
+    -fx-background-color: rgb(255, 255, 255, 1.0);
+    -fx-alignment: CENTER_LEFT;
+    -fx-font-size: 16px;
+}
+
+.list-cell:odd {
+    -fx-background-color: rgb(255, 255, 255, 0.5);
+    -fx-alignment: CENTER_LEFT;
+    -fx-font-size: 16px;
+}
+
+.list-cell:filled:hover {
+    -fx-text-fill: #F2B632;
+    -fx-alignment: CENTER_LEFT;
+    -fx-font-size: 16px;
+}
+
+
+.scroll-bar {
+ -fx-background-color:transparent;
+ -fx-focus-color: transparent;
+ -fx-background-radius: 2em;
+}
+
+.scroll-bar:focused {
+    -fx-background-color: transparent;
+    -fx-focus-color: transparent;
+}
+
+.scroll-bar:vertical .track {
+     -fx-background-color: transparent;
+     -fx-border-color:transparent;
+}
+
+.scroll-bar:vertical .track-background {
+     -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #F2B632;
+    -fx-background-insets: 0 3 0 3;
+    -fx-background-radius: 2em;
+}
+
+.scroll-bar:vertical .decrement-arrow {
+ -fx-background-color: rgb(37, 40, 67, 0.8);
+ -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+ -fx-padding: 0.25em;
+ -fx-rotate: -180;
+}
+
+.scroll-bar:vertical .increment-arrow {
+    -fx-background-color: rgb(37, 40, 67, 0.8);
+    -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+    -fx-padding: 0.25em;
+    -fx-rotate: 0;
+}
+
+.scroll-bar:vertical .increment-button, .scroll-bar:vertical .decrement-button {
+     -fx-background-color: transparent;
+     -fx-background-radius: 2em;
+     -fx-padding: 5;
+}
+
+.scroll-bar:vertical:focused {
+    -fx-background-color: transparent,rgb(96,96,96),rgb(96,96,96);
+}
+
+/*===================================================*/
+.scroll-bar:horizontal .track {
+     -fx-background-color: transparent;
+     -fx-border-color:transparent;
+}
+
+.scroll-bar:horizontal .track-background {
+     -fx-background-color: transparent;
+}
+
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: #F2B632;
+    -fx-background-insets: 0 3 0 3;
+    -fx-background-radius: 2em;
+}
+
+.scroll-bar:horizontal .decrement-arrow {
+ -fx-background-color: rgb(37, 40, 67, 0.8);
+ -fx-shape: "M 0 8 L 0 0 L 8 4 Z";
+ -fx-padding: 0.25em;
+ -fx-rotate: -180;
+}
+
+.scroll-bar:horizontal .increment-arrow {
+    -fx-background-color: rgb(37, 40, 67, 0.8);
+    -fx-shape: "M 0 8 L 0 0 L 8 4 Z";
+    -fx-padding: 0.25em;
+    -fx-rotate: 0;
+}
+
+.scroll-bar:horizontal .increment-button, .scroll-bar:vertical .decrement-button {
+     -fx-background-color: transparent;
+     -fx-background-radius: 2em;
+     -fx-padding: 5;
+}
+
+.scroll-bar:horizontal:focused {
+    -fx-background-color: transparent,rgb(96,96,96),rgb(96,96,96);
+}
+/*===================================================*/
+
+.btn-round {
+    -fx-border-radius: 80px;
+    -fx-background-radius: 80px;
+    -fx-focus-color: transparent;
+    -fx-background-color: #F2B632;
+    -fx-text-fill: transparent;
+}
+
+.btn-round:hover {
+    -fx-background-color: #FFA300;
+}
+
+/*Menu Selector*/
+
+.menu-pane {
+    -fx-background-color: #FFA300;
+}
+
+.menu-box {
+    -fx-background-color: F2B632;
+}
+
+.menu-btn {
+    -fx-font-family: "Calibri";
+    -fx-font-size: 30px;
+    -fx-background-color: transparent;
+    -fx-text-fill: #252839;
+}
+
+.menu-btn:hover {
+    -fx-font-weight: BOLD;
+}
+
+/*Edutir*/
+
+.editor-header {
+    -fx-font-family: "Calibri";
+    -fx-font-size: 30px;
+    -fx-fill: #F2B632;
+}
+
+.editor-input {
+    -fx-font-family: "Calibri";
+    -fx-font-size: 18px;
+    -fx-fill: #252839;
+}
+
+.editor-response {
+    -fx-font-family: "Calibri";
+    -fx-font-size: 22px;
+    -fx-fill: #000000;
+}
+
+.editor-save {
+    -fx-background-color: #F2B632;
+    -fx-text-fill: #252839;
+    -fx-font-family: "Calibri";
+    -fx-font-size: 18px;
+    -fx-font-weight: BOLD;
+}
+
+.editor-save:hover {
+    -fx-background-color: #FFA300;
+    -fx-text-fill: #252839;
+    -fx-font-weight: BOLD;
+}
+

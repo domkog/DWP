@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="HousetimeFmResolver:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/HousetimeFmResolver_jar</output-path>
+    <root id="archive" name="HousetimeFmResolver.jar">
+      <element id="module-output" name="HousetimeFmResolver" />
+      <element id="library" level="project" name="Maven: commons-io:commons-io:2.4" />
+      <element id="library" level="project" name="Maven: net.java.dev.jna:jna-platform:4.1.0" />
+      <element id="library" level="project" name="Maven: net.java.dev.jna:jna:4.1.0" />
+      <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.10" />
+      <element id="library" level="project" name="Maven: org.xerial:sqlite-jdbc:3.7.2" />
+      <element id="library" level="project" name="Maven: uk.co.caprica:vlcj:3.10.1" />
+      <element id="library" level="project" name="Maven: xerces:xercesImpl:2.11.0" />
+      <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.4.01" />
+      <element id="module-output" name="DWP" />
+    </root>
+  </artifact>
+</component>

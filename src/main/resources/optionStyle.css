@@ -1,0 +1,79 @@
+.header {
+    -fx-background-color: #252839;
+}
+
+.footer {
+    -fx-background-color: #252839;
+}
+
+.footer-text {
+    -fx-font-family: "Calibri";
+    -fx-font-size: 30px;
+    -fx-fill: #F2B632;
+    -fx-font-weight: bold;
+}
+
+.btn-round {
+    -fx-border-radius: 80px;
+    -fx-background-radius: 80px;
+    -fx-focus-color: transparent;
+    -fx-background-color: #F2B632;
+    -fx-text-fill: transparent;
+}
+
+.btn-round:hover {
+    -fx-background-color: #FFA300;
+}
+
+/*Options*/
+
+.option-text {
+    -fx-font-family: "Calibri";
+    -fx-font-size: 22px;
+    -fx-fill: #252839;
+}
+
+.option-button {
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+    -fx-focus-color: transparent;
+    -fx-background-color: #7D1313;
+    -fx-text-fill: transparent;
+    -fx-border-color: BLACK;
+    -fx-border-width: 2;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+.option-button:hover {
+    -fx-background-color: #AA3939;
+}
+
+.option-button:selected {
+    -fx-background-color: #446F2D;
+}
+
+.option-button:selected:hover {
+    -fx-background-color: #5B913E;
+}
+
+
+/*Menu Selector*/
+
+.menu-pane {
+    -fx-background-color: #FFA300;
+}
+
+.menu-box {
+    -fx-background-color: F2B632;
+}
+
+.menu-btn {
+    -fx-font-family: "Calibri";
+    -fx-font-size: 30px;
+    -fx-background-color: transparent;
+    -fx-text-fill: #252839;
+}
+
+.menu-btn:hover {
+    -fx-font-weight: BOLD;
+}
